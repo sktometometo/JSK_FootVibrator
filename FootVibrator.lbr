@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="1" unitdist="mic" unit="mic" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.5" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.25" altunitdist="mm" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="yes"/>
@@ -314,18 +314,18 @@ Source: &lt;a href="http://www.ti.com/lit/ds/symlink/tps709.pdf"&gt;http://www.t
 <wire x1="2.2" y1="1.2" x2="2.2" y2="-1.2" width="0.127" layer="21"/>
 <wire x1="2.2" y1="-1.2" x2="-2.2" y2="-1.2" width="0.127" layer="21"/>
 <wire x1="-2.2" y1="-1.2" x2="-2.2" y2="1.2" width="0.127" layer="21"/>
-<smd name="P$1" x="1.6" y="-0.8" dx="0.5" dy="0.5" layer="1"/>
-<smd name="P$2" x="0.8" y="-0.8" dx="0.5" dy="0.5" layer="1"/>
-<smd name="P$3" x="0" y="-0.8" dx="0.5" dy="0.5" layer="1"/>
-<smd name="P$4" x="-0.8" y="-0.8" dx="0.5" dy="0.5" layer="1"/>
-<smd name="P$5" x="-1.6" y="-0.8" dx="0.5" dy="0.5" layer="1"/>
-<smd name="P$6" x="-1.6" y="0" dx="0.5" dy="0.5" layer="1"/>
-<smd name="P$7" x="-1.6" y="0.8" dx="0.5" dy="0.5" layer="1"/>
-<smd name="P$8" x="-0.8" y="0.8" dx="0.5" dy="0.5" layer="1"/>
-<smd name="P$9" x="0" y="0.8" dx="0.5" dy="0.5" layer="1"/>
-<smd name="P$10" x="0.8" y="0.8" dx="0.5" dy="0.5" layer="1"/>
-<smd name="P$11" x="1.6" y="0.8" dx="0.5" dy="0.5" layer="1"/>
-<smd name="P$12" x="1.6" y="0" dx="0.5" dy="0.5" layer="1"/>
+<smd name="P$1" x="1.6" y="-1.05" dx="0.5" dy="1" layer="1"/>
+<smd name="P$2" x="0.8" y="-1.05" dx="0.5" dy="1" layer="1"/>
+<smd name="P$3" x="0" y="-1.05" dx="0.5" dy="1" layer="1"/>
+<smd name="P$4" x="-0.8" y="-1.05" dx="0.5" dy="1" layer="1"/>
+<smd name="P$5" x="-1.6" y="-1.05" dx="0.5" dy="1" layer="1"/>
+<smd name="P$6" x="-1.85" y="0" dx="1" dy="0.5" layer="1"/>
+<smd name="P$7" x="-1.6" y="1.05" dx="0.5" dy="1" layer="1"/>
+<smd name="P$8" x="-0.8" y="1.05" dx="0.5" dy="1" layer="1"/>
+<smd name="P$9" x="0" y="1.05" dx="0.5" dy="1" layer="1"/>
+<smd name="P$10" x="0.8" y="1.05" dx="0.5" dy="1" layer="1"/>
+<smd name="P$11" x="1.6" y="1.05" dx="0.5" dy="1" layer="1"/>
+<smd name="P$12" x="1.85" y="0" dx="1" dy="0.5" layer="1"/>
 <text x="-1.27" y="1.27" size="0.508" layer="25">&gt;NAME</text>
 <text x="-1.27" y="-1.778" size="0.508" layer="27">&gt;VALUE</text>
 </package>
