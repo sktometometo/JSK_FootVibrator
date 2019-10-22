@@ -1011,29 +1011,6 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="CERAMIC-4.7UF-10V-10%-X5R(0603)" urn="urn:adsk.eagle:component:8004333/1" prefix="C" uservalue="yes" library_version="3">
-<description>302010111</description>
-<gates>
-<gate name="G$1" symbol="C" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="C0603">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:8004287/1"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="MPN" value="CC0603KRX5R6BB475"/>
-<attribute name="VALUE" value="4.7uf"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="CERAMIC-1UF-25V-10%-X7R(0603)" urn="urn:adsk.eagle:component:8004316/1" prefix="C" uservalue="yes" library_version="3">
 <description>302010139</description>
 <gates>
@@ -1075,29 +1052,6 @@
 <technology name="">
 <attribute name="MPN" value="CC0603JRNPO9BN120" constant="no"/>
 <attribute name="VALUE" value="12pf"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="CERAMIC-10UF-6.3V-20%-X5R(0603)" urn="urn:adsk.eagle:component:8004358/1" prefix="C" uservalue="yes" library_version="3">
-<description>302010286</description>
-<gates>
-<gate name="G$1" symbol="C" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="C0603">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:8004287/1"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="MPN" value="CC0603MRX5R5BB106" constant="no"/>
-<attribute name="VALUE" value="10UF 6.3V" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -1804,7 +1758,6 @@ Source: &lt;a href="http://www.ti.com/lit/ds/symlink/tps709.pdf"&gt;http://www.t
 <parts>
 <part name="U$1" library="MyLibrary" deviceset="VL53L0X" device=""/>
 <part name="C1" library="OPL_Capacitor" library_urn="urn:adsk.eagle:library:8004261" deviceset="CERAMIC-100NF-50V-10%-X7R(0603)" device="" package3d_urn="urn:adsk.eagle:package:8004287/1" value="100nf"/>
-<part name="C2" library="OPL_Capacitor" library_urn="urn:adsk.eagle:library:8004261" deviceset="CERAMIC-4.7UF-10V-10%-X5R(0603)" device="" package3d_urn="urn:adsk.eagle:package:8004287/1" value="4.7uf"/>
 <part name="R1" library="OPL_Resistor" library_urn="urn:adsk.eagle:library:8004883" deviceset="SMD-RES-1.5K-5%-1/10W(0603)" device="" package3d_urn="urn:adsk.eagle:package:8004941/1" value="1.5K 1/10W"/>
 <part name="R3" library="OPL_Resistor" library_urn="urn:adsk.eagle:library:8004883" deviceset="SMD-RES-1.5K-5%-1/10W(0603)" device="" package3d_urn="urn:adsk.eagle:package:8004941/1" value="1.5K 1/10W"/>
 <part name="R4" library="OPL_Resistor" library_urn="urn:adsk.eagle:library:8004883" deviceset="SMD-RES-1.5K-5%-1/10W(0603)" device="" package3d_urn="urn:adsk.eagle:package:8004941/1" value="1.5K 1/10W"/>
@@ -1828,7 +1781,6 @@ Source: &lt;a href="http://www.ti.com/lit/ds/symlink/tps709.pdf"&gt;http://www.t
 <part name="U1" library="LSM9DS1" deviceset="LSM9DS1" device=""/>
 <part name="+3V9" library="MySupply" deviceset="+3V3" device=""/>
 <part name="C10" library="OPL_Capacitor" library_urn="urn:adsk.eagle:library:8004261" deviceset="CERAMIC-100PF-50V-5%-NPO(0603)" device="" package3d_urn="urn:adsk.eagle:package:8004287/1" value="100pf"/>
-<part name="C11" library="OPL_Capacitor" library_urn="urn:adsk.eagle:library:8004261" deviceset="CERAMIC-10UF-6.3V-20%-X5R(0603)" device="" package3d_urn="urn:adsk.eagle:package:8004287/1" value="10UF 6.3V"/>
 <part name="GND9" library="MySupply" deviceset="GND" device=""/>
 <part name="+3V10" library="MySupply" deviceset="+3V3" device=""/>
 <part name="C12" library="OPL_Capacitor" library_urn="urn:adsk.eagle:library:8004261" deviceset="CERAMIC-100NF-50V-10%-X7R(0603)" device="" package3d_urn="urn:adsk.eagle:package:8004287/1" value="100nf"/>
@@ -1855,8 +1807,6 @@ Source: &lt;a href="http://www.ti.com/lit/ds/symlink/tps709.pdf"&gt;http://www.t
 <part name="Y1" library="OPL_Crystal Oscillator" library_urn="urn:adsk.eagle:library:8004402" deviceset="SMD-CRYSTAL-32.768KHZ-12.5PF-20PPM-90K(2P-L2.0X1.2MM)" device="" package3d_urn="urn:adsk.eagle:package:8004453/1" value="3.2768KHZ"/>
 <part name="C16" library="OPL_Capacitor" library_urn="urn:adsk.eagle:library:8004261" deviceset="CERAMIC-12PF-50V-5%-NPO(0603)" device="" package3d_urn="urn:adsk.eagle:package:8004287/1" value="12pf"/>
 <part name="C17" library="OPL_Capacitor" library_urn="urn:adsk.eagle:library:8004261" deviceset="CERAMIC-12PF-50V-5%-NPO(0603)" device="" package3d_urn="urn:adsk.eagle:package:8004287/1" value="12pf"/>
-<part name="C3" library="OPL_Capacitor" library_urn="urn:adsk.eagle:library:8004261" deviceset="CERAMIC-100NF-50V-10%-X7R(0603)" device="" package3d_urn="urn:adsk.eagle:package:8004287/1" value="100nf"/>
-<part name="C4" library="OPL_Capacitor" library_urn="urn:adsk.eagle:library:8004261" deviceset="CERAMIC-1UF-25V-10%-X7R(0603)" device="" package3d_urn="urn:adsk.eagle:package:8004287/1" value="1uf"/>
 <part name="SW1" library="OPL_Switch" library_urn="urn:adsk.eagle:library:8004989" deviceset="SMD-BUTTON(2P-3.0X2.5X1.2+0.4MM)" device="-B3U-1000P-2P-SMD" package3d_urn="urn:adsk.eagle:package:8005100/1" value="B3U-1000P-2P-SMD"/>
 <part name="C6" library="OPL_Capacitor" library_urn="urn:adsk.eagle:library:8004261" deviceset="CERAMIC-100NF-50V-10%-X7R(0603)" device="" package3d_urn="urn:adsk.eagle:package:8004287/1" value="100nf"/>
 <part name="SW2" library="OPL_Switch" library_urn="urn:adsk.eagle:library:8004989" deviceset="SMD-BUTTON(2P-3.0X2.5X1.2+0.4MM)" device="-B3U-1000P-2P-SMD" package3d_urn="urn:adsk.eagle:package:8005100/1" value="B3U-1000P-2P-SMD"/>
@@ -1886,10 +1836,6 @@ Source: &lt;a href="http://www.ti.com/lit/ds/symlink/tps709.pdf"&gt;http://www.t
 <instance part="C1" gate="G$1" x="45.466" y="25.146" smashed="yes" rot="R270">
 <attribute name="NAME" x="45.847" y="23.622" size="1.778" layer="95" rot="R270"/>
 <attribute name="VALUE" x="40.767" y="23.622" size="1.778" layer="96" rot="R270"/>
-</instance>
-<instance part="C2" gate="G$1" x="50.8" y="25.4" smashed="yes" rot="R270">
-<attribute name="NAME" x="51.181" y="23.876" size="1.778" layer="95" rot="R270"/>
-<attribute name="VALUE" x="46.101" y="23.876" size="1.778" layer="96" rot="R270"/>
 </instance>
 <instance part="R1" gate="G$1" x="-7.62" y="40.64" smashed="yes" rot="R90">
 <attribute name="NAME" x="-9.1186" y="36.83" size="1.778" layer="95" rot="R90"/>
@@ -1974,13 +1920,9 @@ Source: &lt;a href="http://www.ti.com/lit/ds/symlink/tps709.pdf"&gt;http://www.t
 <wire x1="40.64" y1="15.24" x2="45.466" y2="15.24" width="0.1524" layer="91"/>
 <wire x1="45.466" y1="15.24" x2="45.466" y2="21.336" width="0.1524" layer="91"/>
 <junction x="38.1" y="15.24"/>
-<wire x1="45.466" y1="15.24" x2="50.8" y2="15.24" width="0.1524" layer="91"/>
-<wire x1="50.8" y1="15.24" x2="50.8" y2="21.59" width="0.1524" layer="91"/>
-<junction x="45.466" y="15.24"/>
 <wire x1="40.64" y1="15.24" x2="40.64" y2="-5.08" width="0.1524" layer="91"/>
 <junction x="40.64" y="15.24"/>
 <pinref part="C1" gate="G$1" pin="2"/>
-<pinref part="C2" gate="G$1" pin="2"/>
 <pinref part="U$11" gate="G$1" pin="1"/>
 <wire x1="-35.56" y1="12.7" x2="-30.48" y2="12.7" width="0.1524" layer="91"/>
 <wire x1="-30.48" y1="12.7" x2="-22.86" y2="12.7" width="0.1524" layer="91"/>
@@ -2032,13 +1974,10 @@ Source: &lt;a href="http://www.ti.com/lit/ds/symlink/tps709.pdf"&gt;http://www.t
 <wire x1="38.1" y1="33.02" x2="45.466" y2="33.02" width="0.1524" layer="91"/>
 <wire x1="45.466" y1="33.02" x2="50.8" y2="33.02" width="0.1524" layer="91"/>
 <junction x="38.1" y="33.02"/>
-<wire x1="50.8" y1="33.02" x2="50.8" y2="29.21" width="0.1524" layer="91"/>
 <wire x1="45.466" y1="28.956" x2="45.466" y2="33.02" width="0.1524" layer="91"/>
 <junction x="45.466" y="33.02"/>
 <wire x1="50.8" y1="48.26" x2="50.8" y2="33.02" width="0.1524" layer="91"/>
-<junction x="50.8" y="33.02"/>
 <pinref part="C1" gate="G$1" pin="1"/>
-<pinref part="C2" gate="G$1" pin="1"/>
 <wire x1="-22.86" y1="44.45" x2="-22.86" y2="48.26" width="0.1524" layer="91"/>
 <wire x1="-22.86" y1="48.26" x2="-15.24" y2="48.26" width="0.1524" layer="91"/>
 <wire x1="-15.24" y1="48.26" x2="-7.62" y2="48.26" width="0.1524" layer="91"/>
@@ -2079,9 +2018,7 @@ Source: &lt;a href="http://www.ti.com/lit/ds/symlink/tps709.pdf"&gt;http://www.t
 <instance part="+3V1" gate="G$1" x="-38.1" y="55.88" smashed="yes">
 <attribute name="VALUE" x="-40.64" y="50.8" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="+3V2" gate="G$1" x="-53.34" y="7.62" smashed="yes">
-<attribute name="VALUE" x="-55.88" y="2.54" size="1.778" layer="96" rot="R90"/>
-</instance>
+<instance part="+3V2" gate="G$1" x="-53.34" y="7.62" smashed="yes"/>
 <instance part="+3V3" gate="G$1" x="-27.94" y="-5.08" smashed="yes">
 <attribute name="VALUE" x="-30.48" y="-10.16" size="1.778" layer="96" rot="R90"/>
 </instance>
@@ -2143,14 +2080,6 @@ Source: &lt;a href="http://www.ti.com/lit/ds/symlink/tps709.pdf"&gt;http://www.t
 <instance part="C17" gate="G$1" x="-76.2" y="2.54" smashed="yes" rot="R90">
 <attribute name="NAME" x="-77.47" y="-1.27" size="1.27" layer="95" ratio="10" rot="R90"/>
 <attribute name="VALUE" x="-73.66" y="-1.27" size="1.27" layer="96" ratio="10" rot="R90"/>
-</instance>
-<instance part="C3" gate="G$1" x="-58.42" y="0" smashed="yes" rot="R90">
-<attribute name="NAME" x="-59.69" y="-3.81" size="1.27" layer="95" ratio="10" rot="R90"/>
-<attribute name="VALUE" x="-55.88" y="-3.81" size="1.27" layer="96" ratio="10" rot="R90"/>
-</instance>
-<instance part="C4" gate="G$1" x="-48.26" y="0" smashed="yes" rot="R90">
-<attribute name="NAME" x="-49.53" y="-3.81" size="1.27" layer="95" ratio="10" rot="R90"/>
-<attribute name="VALUE" x="-45.72" y="-3.81" size="1.27" layer="96" ratio="10" rot="R90"/>
 </instance>
 <instance part="SW1" gate="G$1" x="-58.42" y="-38.1" smashed="yes" rot="R90">
 <attribute name="NAME" x="-59.69" y="-45.72" size="1.27" layer="95" ratio="10" rot="R90"/>
@@ -2389,18 +2318,12 @@ Source: &lt;a href="http://www.ti.com/lit/ds/symlink/tps709.pdf"&gt;http://www.t
 <junction x="-36.068" y="48.26"/>
 </segment>
 <segment>
-<pinref part="C3" gate="G$1" pin="2"/>
-<pinref part="C4" gate="G$1" pin="2"/>
-<wire x1="-58.42" y1="3.81" x2="-53.34" y2="3.81" width="0.1524" layer="91"/>
 <pinref part="+3V2" gate="G$1" pin="+3V3"/>
-<wire x1="-53.34" y1="3.81" x2="-48.26" y2="3.81" width="0.1524" layer="91"/>
 <wire x1="-53.34" y1="5.08" x2="-53.34" y2="3.81" width="0.1524" layer="91"/>
-<junction x="-53.34" y="3.81"/>
 <pinref part="U$2" gate="G$1" pin="VDDA"/>
 <wire x1="-22.86" y1="2.54" x2="-43.18" y2="2.54" width="0.1524" layer="91"/>
 <wire x1="-43.18" y1="2.54" x2="-43.18" y2="3.81" width="0.1524" layer="91"/>
-<wire x1="-43.18" y1="3.81" x2="-48.26" y2="3.81" width="0.1524" layer="91"/>
-<junction x="-48.26" y="3.81"/>
+<wire x1="-43.18" y1="3.81" x2="-53.34" y2="3.81" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="+3V8" gate="G$1" pin="+3V3"/>
@@ -2475,15 +2398,9 @@ Source: &lt;a href="http://www.ti.com/lit/ds/symlink/tps709.pdf"&gt;http://www.t
 <junction x="-81.28" y="-2.54"/>
 </segment>
 <segment>
-<pinref part="C3" gate="G$1" pin="1"/>
-<pinref part="C4" gate="G$1" pin="1"/>
-<wire x1="-58.42" y1="-3.81" x2="-53.34" y2="-3.81" width="0.1524" layer="91"/>
 <pinref part="GND8" gate="1" pin="GND"/>
-<wire x1="-53.34" y1="-3.81" x2="-48.26" y2="-3.81" width="0.1524" layer="91"/>
 <wire x1="-53.34" y1="-5.08" x2="-53.34" y2="-3.81" width="0.1524" layer="91"/>
-<junction x="-53.34" y="-3.81"/>
-<wire x1="-48.26" y1="-3.81" x2="-43.18" y2="-3.81" width="0.1524" layer="91"/>
-<junction x="-48.26" y="-3.81"/>
+<wire x1="-53.34" y1="-3.81" x2="-43.18" y2="-3.81" width="0.1524" layer="91"/>
 <pinref part="U$2" gate="G$1" pin="VSSA"/>
 <wire x1="-43.18" y1="-3.81" x2="-43.18" y2="-2.54" width="0.1524" layer="91"/>
 <wire x1="-43.18" y1="-2.54" x2="-22.86" y2="-2.54" width="0.1524" layer="91"/>
@@ -2725,13 +2642,9 @@ Source: &lt;a href="http://www.ti.com/lit/ds/symlink/tps709.pdf"&gt;http://www.t
 <instance part="+3V9" gate="G$1" x="30.48" y="55.88" smashed="yes">
 <attribute name="VALUE" x="27.94" y="50.8" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="C10" gate="G$1" x="7.62" y="40.64" smashed="yes" rot="R270">
-<attribute name="NAME" x="8.001" y="39.116" size="1.778" layer="95" rot="R270"/>
-<attribute name="VALUE" x="2.921" y="39.116" size="1.778" layer="96" rot="R270"/>
-</instance>
-<instance part="C11" gate="G$1" x="20.32" y="40.64" smashed="yes" rot="R270">
-<attribute name="NAME" x="20.701" y="39.116" size="1.778" layer="95" rot="R270"/>
-<attribute name="VALUE" x="15.621" y="39.116" size="1.778" layer="96" rot="R270"/>
+<instance part="C10" gate="G$1" x="12.7" y="40.64" smashed="yes" rot="R270">
+<attribute name="NAME" x="13.081" y="39.116" size="1.778" layer="95" rot="R270"/>
+<attribute name="VALUE" x="8.001" y="39.116" size="1.778" layer="96" rot="R270"/>
 </instance>
 <instance part="GND9" gate="1" x="12.7" y="27.94" smashed="yes">
 <attribute name="VALUE" x="10.16" y="25.4" size="1.778" layer="96"/>
@@ -2773,17 +2686,11 @@ Source: &lt;a href="http://www.ti.com/lit/ds/symlink/tps709.pdf"&gt;http://www.t
 <wire x1="22.86" y1="17.78" x2="30.48" y2="17.78" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="17.78" x2="30.48" y2="48.26" width="0.1524" layer="91"/>
 <pinref part="+3V9" gate="G$1" pin="+3V3"/>
-<pinref part="C11" gate="G$1" pin="1"/>
 <wire x1="30.48" y1="48.26" x2="30.48" y2="53.34" width="0.1524" layer="91"/>
-<wire x1="20.32" y1="45.72" x2="20.32" y2="44.45" width="0.1524" layer="91"/>
-<wire x1="7.62" y1="45.72" x2="12.7" y2="45.72" width="0.1524" layer="91"/>
-<pinref part="C10" gate="G$1" pin="1"/>
-<wire x1="12.7" y1="45.72" x2="20.32" y2="45.72" width="0.1524" layer="91"/>
-<wire x1="7.62" y1="44.45" x2="7.62" y2="45.72" width="0.1524" layer="91"/>
-<wire x1="12.7" y1="45.72" x2="12.7" y2="48.26" width="0.1524" layer="91"/>
-<junction x="12.7" y="45.72"/>
 <wire x1="12.7" y1="48.26" x2="30.48" y2="48.26" width="0.1524" layer="91"/>
 <junction x="30.48" y="48.26"/>
+<pinref part="C10" gate="G$1" pin="1"/>
+<wire x1="12.7" y1="44.45" x2="12.7" y2="48.26" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="U1" gate="G$1" pin="VDDIO"/>
@@ -2798,17 +2705,6 @@ Source: &lt;a href="http://www.ti.com/lit/ds/symlink/tps709.pdf"&gt;http://www.t
 </segment>
 </net>
 <net name="GND" class="0">
-<segment>
-<pinref part="C10" gate="G$1" pin="2"/>
-<wire x1="7.62" y1="36.83" x2="7.62" y2="33.02" width="0.1524" layer="91"/>
-<pinref part="C11" gate="G$1" pin="2"/>
-<wire x1="7.62" y1="33.02" x2="12.7" y2="33.02" width="0.1524" layer="91"/>
-<wire x1="12.7" y1="33.02" x2="20.32" y2="33.02" width="0.1524" layer="91"/>
-<wire x1="20.32" y1="33.02" x2="20.32" y2="36.83" width="0.1524" layer="91"/>
-<pinref part="GND9" gate="1" pin="GND"/>
-<wire x1="12.7" y1="33.02" x2="12.7" y2="30.48" width="0.1524" layer="91"/>
-<junction x="12.7" y="33.02"/>
-</segment>
 <segment>
 <pinref part="C12" gate="G$1" pin="2"/>
 <pinref part="GND10" gate="1" pin="GND"/>
@@ -2833,6 +2729,11 @@ Source: &lt;a href="http://www.ti.com/lit/ds/symlink/tps709.pdf"&gt;http://www.t
 <pinref part="C14" gate="G$1" pin="2"/>
 <pinref part="GND13" gate="1" pin="GND"/>
 <wire x1="-45.72" y1="-24.13" x2="-45.72" y2="-27.94" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="C10" gate="G$1" pin="2"/>
+<pinref part="GND9" gate="1" pin="GND"/>
+<wire x1="12.7" y1="36.83" x2="12.7" y2="30.48" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$4" class="0">
